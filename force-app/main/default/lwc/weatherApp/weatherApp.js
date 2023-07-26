@@ -2,20 +2,20 @@ import { LightningElement } from 'lwc';
 const API_KEY = '422336ee0e72ac783393c3393bd4a281'
 //  chave de api gerada pelo site https://home.openweathermap.org/
 
-import WEATHER_ICONS from 'salesforce/resourceURL/weatherAppIcons'
+import WEATHER_ICONS from '@salesforce/resourceUrl/weatherAppIcons'
 
 export default class WeatherApp extends LightningElement {
 
-    clearIcon = WEATHER_ICONS + '/weatherIcons/clear.svg'
-    cloudIcon = WEATHER_ICONS + '/weatherIcons/cloud.svg'
-    dropletIcon = WEATHER_ICONS + '/weatherIcons/droplet.svg'
-    hazeIcon = WEATHER_ICONS + '/weatherIcons/haze.svg'
-    mapIcon = WEATHER_ICONS + '/weatherIcons/map.svg'
-    rainIcon = WEATHER_ICONS + '/weatherIcons/rain.svg'
-    snowIcon = WEATHER_ICONS + '/weatherIcons/snow.svg'
-    stormIcon = WEATHER_ICONS + '/weatherIcons/storm.svg'
-    thermometerIcon = WEATHER_ICONS + '/weatherIcons/thermometer.svg'
-    arrowBackIcon = WEATHER_ICONS + '/weatherIcons/arrow-back.svg'
+    clearIcon = WEATHER_ICONS + '/weatherAppIcons/clear.svg'
+    cloudIcon = WEATHER_ICONS + '/weatherAppIcons/cloud.svg'
+    dropletIcon = WEATHER_ICONS + '/weatherAppIcons/droplet.svg'
+    hazeIcon = WEATHER_ICONS + '/weatherAppIcons/haze.svg'
+    mapIcon = WEATHER_ICONS + '/weatherAppIcons/map.svg'
+    rainIcon = WEATHER_ICONS + '/weatherAppIcons/rain.svg'
+    snowIcon = WEATHER_ICONS + '/weatherAppIcons/snow.svg'
+    stormIcon = WEATHER_ICONS + '/weatherAppIcons/storm.svg'
+    thermometerIcon = WEATHER_ICONS + '/weatherAppIcons/thermometer.svg'
+    arrowBackIcon = WEATHER_ICONS + '/weatherAppIcons/arrow-back.svg'
 
     cityName = ''
     loadingText = ''
